@@ -51,10 +51,17 @@
             "eventsAttending": []
         }
     ],
-    "events": [],
-    "testObj": [
+    "events": [
         {
-            "test": "test"
+            "id": 1,
+            "eventId": 001,
+            "name": "Potluck",
+            "description": "A description of the potluck",
+            "location": "Location",
+            "date": "08/26/2019",
+            "organizerId": 001,
+            "guests": [],
+            "food": []
         }
-    ]
+    ],
 }
