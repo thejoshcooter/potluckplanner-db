@@ -55,11 +55,110 @@
         {
             "id": 1,
             "eventId": 101,
-            "name": "Potluck",
-            "description": "A description of the potluck",
-            "location": "Location",
+            "name": "Potluck One",
+            "description": "The first potluck",
+            "location": "Dallas",
             "date": "08/26/2019",
             "organizerId": 101,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 2,
+            "eventId": 102,
+            "name": "Potluck Two",
+            "description": "The second potluck",
+            "location": "Denver",
+            "date": "08/27/2019",
+            "organizerId": 102,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 3,
+            "eventId": 103,
+            "name": "Potluck Three",
+            "description": "The third potluck",
+            "location": "Colorado Springs",
+            "date": "08/28/2019",
+            "organizerId": 103,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 4,
+            "eventId": 104,
+            "name": "Potluck Four",
+            "description": "The fourth potluck",
+            "location": "Seattle",
+            "date": "08/29/2019",
+            "organizerId": 104,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 5,
+            "eventId": 105,
+            "name": "Potluck Five",
+            "description": "The fifth potluck",
+            "location": "Vegas",
+            "date": "08/30/2019",
+            "organizerId": 105,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 6,
+            "eventId": 106,
+            "name": "Potluck Six",
+            "description": "The sixth potluck",
+            "location": "Raleigh",
+            "date": "09/04/2019",
+            "organizerId": 101,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 7,
+            "eventId": 107,
+            "name": "Potluck Seven",
+            "description": "The seventh potluck",
+            "location": "Miami",
+            "date": "09/07/2019",
+            "organizerId": 105,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 8,
+            "eventId": 108,
+            "name": "Potluck Eight",
+            "description": "The eighth potluck",
+            "location": "Chicago",
+            "date": "09/09/2019",
+            "organizerId": 103,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 9,
+            "eventId": 109,
+            "name": "Potluck Nine",
+            "description": "The ninth potluck",
+            "location": "Kansas City",
+            "date": "10/04/2019",
+            "organizerId": 102,
+            "guests": [],
+            "food": []
+        },
+        {
+            "id": 10,
+            "eventId": 110,
+            "name": "Potluck Ten",
+            "description": "The tenth potluck",
+            "location": "Salt Lake City",
+            "date": "10/15/2019",
+            "organizerId": 104,
             "guests": [],
             "food": []
         }
