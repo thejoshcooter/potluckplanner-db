@@ -18,5 +18,9 @@
         }
     ],
     "events": [],
-    "test": []
+    "testObj": [
+        {
+            "test": "test"
+        }
+    ]
 }
