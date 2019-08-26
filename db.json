@@ -7,6 +7,14 @@
             "avatar": "http://dummyimage.com/194x147.bmp/ff4444/ffffff",
             "eventsCreated": [],
             "eventsAttending": []
+        },
+        {
+            "userId": 2,
+            "name": "Tom",
+            "email": "tom@hotmail.com",
+            "avatar": "http://dummyimage.com/194x147.bmp/ff4444/ffffff",
+            "eventsCreated": [],
+            "eventsAttending": []
         }
     ],
     "events": []
