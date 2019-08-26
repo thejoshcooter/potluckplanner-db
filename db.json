@@ -6,6 +6,7 @@
             "name": "Bob",
             "email": "bob@gmail.com",
             "password": "abc123",
+            "token": "64jvt77n9h",
             "avatar": "http://dummyimage.com/194x147.bmp/ff4444/ffffff",
             "eventsCreated": [],
             "eventsAttending": []
@@ -16,6 +17,7 @@
             "name": "Tom",
             "email": "tom@gmail.com",
             "password": "abc123",
+            "token": "9277cbd7fh",
             "avatar": "http://dummyimage.com/194x147.bmp/ff4444/ffffff",
             "eventsCreated": [],
             "eventsAttending": []
@@ -26,6 +28,7 @@
             "name": "Steve",
             "email": "steve@gmail.com",
             "password": "abc123",
+            "token": "66fhdgg523",
             "avatar": "http://dummyimage.com/194x147.bmp/ff4444/ffffff",
             "eventsCreated": [],
             "eventsAttending": []
@@ -36,6 +39,7 @@
             "name": "George",
             "email": "george@gmail.com",
             "password": "abc123",
+            "token": "8wd374y08f",
             "avatar": "http://dummyimage.com/194x147.bmp/ff4444/ffffff",
             "eventsCreated": [],
             "eventsAttending": []
@@ -46,6 +50,7 @@
             "name": "John",
             "email": "john@gmail.com",
             "password": "abc123",
+            "token": "9843yr93pl",
             "avatar": "http://dummyimage.com/194x147.bmp/ff4444/ffffff",
             "eventsCreated": [],
             "eventsAttending": []
@@ -60,8 +65,39 @@
             "location": "Dallas",
             "date": "08/26/2019",
             "organizerId": 101,
-            "guests": [],
-            "food": []
+            "guests": [
+                {
+                   "userId": 101,
+                   "name": "Bob",
+                   "email": "bob@gmail.com",
+                   "rsvp": true,
+                   "foodItem": "Main Dish",
+                   "foodName": "Burgers"
+                },
+                {
+                    "userId": 102,
+                    "name": "Tom",
+                    "email": "tom@gmail.com",
+                    "rsvp": true,
+                    "foodItem": "Side Dish",
+                    "foodName": "Potato Salad"
+                 },
+                 {
+                    "userId": 103,
+                    "name": "Steve",
+                    "email": "steve@gmail.com",
+                    "rsvp": false,
+                    "foodItem": "Drink",
+                    "foodName": "Dr Pepper"
+                 }
+            ],
+            "foodAssigned": {
+                "mainDish": true,
+                "sideDish": true,
+                "snack": false,
+                "dessert": false,
+                "drink": true
+            }
         },
         {
             "id": 2,
@@ -72,7 +108,13 @@
             "date": "08/27/2019",
             "organizerId": 102,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         },
         {
             "id": 3,
@@ -83,7 +125,13 @@
             "date": "08/28/2019",
             "organizerId": 103,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         },
         {
             "id": 4,
@@ -94,7 +142,13 @@
             "date": "08/29/2019",
             "organizerId": 104,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         },
         {
             "id": 5,
@@ -105,7 +159,13 @@
             "date": "08/30/2019",
             "organizerId": 105,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         },
         {
             "id": 6,
@@ -116,7 +176,13 @@
             "date": "09/04/2019",
             "organizerId": 101,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         },
         {
             "id": 7,
@@ -127,7 +193,13 @@
             "date": "09/07/2019",
             "organizerId": 105,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         },
         {
             "id": 8,
@@ -138,7 +210,13 @@
             "date": "09/09/2019",
             "organizerId": 103,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         },
         {
             "id": 9,
@@ -149,7 +227,13 @@
             "date": "10/04/2019",
             "organizerId": 102,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         },
         {
             "id": 10,
@@ -160,7 +244,13 @@
             "date": "10/15/2019",
             "organizerId": 104,
             "guests": [],
-            "food": []
+            "foodAssigned": {
+                "mainDish": false,
+                "sideDish": false,
+                "snack": false,
+                "dessert": false,
+                "drink": false
+            }
         }
     ]
 }
