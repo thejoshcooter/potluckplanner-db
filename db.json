@@ -1,4 +1,13 @@
 {
-    "users": [],
+    "users": [
+        {
+            "userId": 1,
+            "name": "Bob",
+            "email": "bob@hotmail.com",
+            "avatar": "http://dummyimage.com/194x147.bmp/ff4444/ffffff",
+            "eventsCreated": [],
+            "eventsAttending": []
+        }
+    ],
     "events": []
 }
