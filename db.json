@@ -2,7 +2,7 @@
     "users": [
         {
             "id": 1,
-            "userId": 001,
+            "userId": 101,
             "name": "Bob",
             "email": "bob@gmail.com",
             "password": "abc123",
@@ -12,7 +12,7 @@
         },
         {
             "id": 2,
-            "userId": 002,
+            "userId": 102,
             "name": "Tom",
             "email": "tom@gmail.com",
             "password": "abc123",
@@ -22,7 +22,7 @@
         },
         {
             "id": 3,
-            "userId": 003,
+            "userId": 103,
             "name": "Steve",
             "email": "steve@gmail.com",
             "password": "abc123",
@@ -32,7 +32,7 @@
         },
         {
             "id": 4,
-            "userId": 004,
+            "userId": 104,
             "name": "George",
             "email": "george@gmail.com",
             "password": "abc123",
@@ -42,7 +42,7 @@
         },
         {
             "id": 5,
-            "userId": 005,
+            "userId": 105,
             "name": "John",
             "email": "john@gmail.com",
             "password": "abc123",
@@ -54,12 +54,12 @@
     "events": [
         {
             "id": 1,
-            "eventId": 001,
+            "eventId": 101,
             "name": "Potluck",
             "description": "A description of the potluck",
             "location": "Location",
             "date": "08/26/2019",
-            "organizerId": 001,
+            "organizerId": 101,
             "guests": [],
             "food": []
         }
